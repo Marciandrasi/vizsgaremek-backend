@@ -7,14 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
-/**
- * CartItem válasz DTO
- * Lazy Loading problémákat elkerülendő exponálunk egy DTO-t
- * helyett a raw CartItem entitást.
- *
- * Ez a DTO biztosítja, hogy az User és Product relációk
- * nem szerzializálódnak Hibernate proxy-ként.
- */
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
